@@ -1,4 +1,78 @@
-* {
-	box-sizing: border-box;
+:root {
+	/* Primary colors */
+	--light-cyan: hsl(193, 38%, 86%);
+	--neon-green: hsl(150, 100%, 66%);
+
+	/* Neutral colors */
+	--grayish-blue: hsl(217, 19%, 38%);
+	--dark-grayish-blue: hsl(217, 19%, 24%);
 }
+
+.app {
+	width: 100%;
+	height: 100vh;
+}
+
+.advice-container {
+	width: 25rem;
+	height: 18rem;
+	background-color: var(--dark-grayish-blue);
+	border-radius: 15px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+}
+
+.advice-number {
+	color: var(--neon-green);
+	text-transform: uppercase;
+	font-size: 18x;
+	font-weight: 800;
+}
+
+.quote {
+	font-size: 22px;
+	font-weight: 800;
+	color: var(--light-cyan);
+	padding: 0 25px;
+}
+
+.pattern-divider {
+	width: 20rem;
+}
+
+.icon-dice-container {
+	margin: 2rem auto;
+	background-color: var(--neon-green);
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.icon-dice-container:hover {
+	box-shadow: 0 0 35px var(--neon-green);
+	cursor: pointer;
+}
+
+.icon-dice {
+	margin: 1rem auto;
+}
+
+@media only screen and (max-width: 767px) {
+	.advice-container {
+		width: 19rem;
+		height: 20rem;
+	}
+
+	.pattern-divider {
+		width: 16rem;
+	}
+
+	.quote {
+		padding: 0 10px;
+	}
 }
