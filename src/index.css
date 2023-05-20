@@ -1,16 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
 
 :root {
-	/* Primary colors */
-	--light-cyan: hsl(193, 38%, 86%);
-	--neon-green: hsl(150, 100%, 66%);
-
 	/* Neutral colors */
-	--grayish-blue: hsl(217, 19%, 38%);
-	--dark-grayish-blue: hsl(217, 19%, 24%);
 
-	/* Font */
-	--quote-font-size: 28px;
+	--dark-blue: hsl(218, 23%, 16%);
 }
 
 * {
